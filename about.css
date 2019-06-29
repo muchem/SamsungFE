@@ -1,0 +1,344 @@
+body{
+	margin:0;
+	font-family: 'Gothic A1', sans-serif;
+}
+.hero{
+	background-image:url('https://tachyoniq.com/wp-content/uploads/2018/01/Samsung.jpg');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+}
+nav{
+	display:flex;
+	align-items:center;
+    justify-content:space-around;
+}
+
+.logo{
+	flex:1;
+	padding-left:30px;
+	
+}
+#logo-img{
+    width:100px;
+    height:90px;
+}
+.wrapper{
+	width:950px;
+	margin: auto;
+}
+.nav-ul {
+    flex:1; 
+}
+.links {
+	display:flex;
+	justify-content:space-around;
+
+}
+.links a{
+	text-decoration:none;
+	color:rgba(226, 250, 255, 0.4);
+	font-size:20px;
+}
+.links a:hover{
+	text-decoration:underline #0456;
+	color:white;
+}
+.links li{
+	list-style:none;
+}
+.about-intro{
+	padding:30px;
+	color:rgb(255, 255, 255);
+	font-size:20px;
+	margin-bottom:30px
+}
+.founder-info{
+	display:flex;
+}
+.founder-text{
+	flex:2;
+	padding:15px;
+	line-height:25px;
+	max-height:20px;
+}
+.founder-img{
+	flex:1;
+	text-align:center;
+}
+#founder{
+	padding:10px;
+}
+.slide-show{
+	margin:10px 0 20px;
+}
+#pre,#next{
+    color:white;
+    background-color:rgb(47, 133, 207);
+    padding:10px;
+    border:solid 2px;
+    border-radius:5px;
+}
+#pre:hover{
+	color:rgb(109, 179, 240);
+	cursor:pointer;
+}
+#next:hover{
+	color:rgb(109, 179, 240);
+	cursor:pointer;
+}
+#office{
+	width:100%;
+	height:500px;
+}
+.chairman{
+	display:flex;
+}
+.chairman-image{
+	flex:1;
+	padding:15px;
+	text-align:center;
+}
+.chairman-text{
+	flex:2;
+	padding:15px;
+	line-height:25px;
+	max-height:20px;
+}
+.vice-chairman{
+	display:flex;
+}
+.vice-chairman-img{
+flex:1;
+	text-align:center;
+}
+#vice{
+	margin-top:30px;
+}
+.vice-text{
+	flex:2;
+	padding:15px;
+	line-height:25px;
+	max-height:30px;
+}
+.our-goal{
+    display:flex;
+	padding:30px 0 30px 0;
+	height:450px;
+
+}
+.goal-img{
+    flex:1;
+}
+#engin{
+	padding:15px 0px 15px 0px;
+	margin:0% 0 0 0;
+	width:300px;
+	height:350px;
+}
+.goal-text{
+    flex:2;
+    text-align:center;
+    padding:15px;
+	max-height:10px;
+	line-height:25px;
+	
+}
+#banner{
+	width:100%;
+	height:200px;
+	margin-bottom:0;
+}
+/*footer*/
+footer{
+	height:100%;
+	background-color:#000;
+	border:2px solid #000;
+	margin:0;
+}
+.fa {
+	padding: 10px;
+	font-size: 30px;
+	width: 25px;
+	text-align: center;
+	text-decoration: none;
+	margin:5px;
+  }
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+  }
+  
+  .fa-twitter {
+	background: #55ACEE;
+	color: white;
+  }
+  .fa-youtube {
+	background: #bb0000;
+	color: white;
+  }
+  .fa-instagram {
+	background: #125688;
+	color: white;
+  }
+.big{
+	padding:50px 30px 20px 30px;
+	display:flex;
+	color: #f2f2f2;
+	
+}
+.link-box{
+	flex:1;
+	
+}
+.footer-subhead{
+	margin-bottom:0;
+}
+.info-links h5{
+	margin:0;
+}
+.media-links{
+	display:flex;
+	padding-left:0;
+	margin-top:0;
+}
+.media-links li{
+	list-style:none;
+	
+}
+.subscribe{
+	flex:2;
+
+}
+.footer-links{
+	flex:1;
+	
+}
+.footer-links a{
+	text-decoration:none;
+	color:grey;
+}
+.footer-links li{
+	LIST-STYLE:NONE;
+}
+#email{
+	height:30px;
+}
+#submit{
+	text-align:center;
+	padding:10px;
+	color:#f2f2f2;
+	background-color:#1a1f49;
+	border:none;
+	margin:5px;
+	height:35px;
+}
+#submit:hover{
+	cursor:pointer;
+}
+.footer-logo{
+	flex:1;
+}
+
+@media (max-width:1024px){
+	.hero{	
+		height:700px;
+		margin-bottom:60px;
+	}
+	.about-intro{
+		text-align:center;
+		font-size:35px;
+		
+	}
+	.intro{
+		padding-bottom:50px;
+	}
+	.founder-text,.chairman-text,.vice-text,.goal-text{
+		padding:10px 50px 10px 50px;
+		line-height:50px;
+		text-align: center;
+		font-size:2em;
+	}
+	.goal-text{
+	
+	}
+	.founder-img{
+		margin-top:90%;
+	}
+	.goal-img{
+		text-align:center;
+		display:none;
+		
+	}
+	.vice-chairman-img{
+		margin-top:85%;
+		
+	}
+	.chairman-image{
+		margin-top:90%;
+	}
+
+	.founder-info,.vice-chairman{
+		flex-direction:column;
+		text-align:center;
+	}
+	.goal-text,.chairman{
+		flex-direction:column-reverse;
+		text-align: center;
+	}
+
+	nav{
+		margin:5px 25px 0px 25px;
+	}
+	#logo-img{
+		width:200px;
+		height:190px;
+	}
+	.links a{
+		font-size:27px;
+	}
+	.footer-subhead{
+		font-size:25px;
+		
+	}
+	input[placeholder]{
+		font-size:25px;
+	}
+	#email{
+		height:50px;
+	}
+	#submit{
+		height:55px;
+		padding:10px;
+		
+	}
+	.info-links{
+		margin:10px 0% 10px ;
+		font-size:25px;
+	}
+	.footer-logo{
+		display:none;
+	}
+	#office{
+		height:600px;
+	}
+	#pre,#next{
+		padding:20px;
+		font-size:40px;
+	}
+	#banner{
+		margin-bottom:0;
+	}
+	.end{
+		margin-top:45%;
+	}
+	.caption{
+		font-size:50px;
+	}
+	h3{
+		margin-top:10px;
+	}
+	h6{
+		font-size:30px;
+	}
+}

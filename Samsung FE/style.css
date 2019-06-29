@@ -1,0 +1,479 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	font-family:'Noto Sans HK', sans-serif;
+	border:none;
+	width:100vw;
+	height:100vh;
+}
+
+.wrapper{
+	width:950px;
+	margin: 0 auto;
+}
+nav{
+	display:flex;
+	align-items:center;
+    justify-content:space-around;
+}
+.logo{
+	flex:1;
+	padding-left:30px;
+}
+#logo-img{
+    width:100px;
+	height:90px;
+}
+.nav-ul {
+    flex:1; 
+}
+.links {
+	display:flex;
+	justify-content:space-around;
+}
+.links a{
+	text-decoration:none;
+	color:#0456;
+	font-size:20px;
+}
+.links a:hover{
+	text-decoration:underline #0456;
+	color:#0456;
+}
+.links li{
+	list-style:none;
+}
+.showcase{
+	display:flex;
+	align-items:center;
+}
+.intro-text{
+	flex:1;
+	padding:30px;
+}
+.intro-text p {
+	margin-bottom:15px;
+}
+.phoneimage{
+	flex:1;
+	padding:30px;
+	margin-left:35%;
+	animation: fall 0.8s ease;
+}
+.buttons{
+	display:flex;
+	
+}
+#bt2{
+	color:grey;
+	margin:10px 10px 0px 0px;
+	border: solid 2px lightpink;
+	padding:5px;
+	text-decoration:none;	
+}
+#bt1{
+    color:#fff;
+	margin:10px 10px 0px 0px;
+	border: solid 2px lightpink;
+	padding:5px;
+    text-decoration:none;
+    background-color:lightpink;
+}
+#bt2:hover{
+	color:white;
+	background-color:lightpink;
+}
+#bt1:hover{
+	color:grey;
+	background-color:#fff;
+}
+#galaxy{
+	width:250px;
+	height:250px;
+
+}
+#arrow{
+	width:150px;
+	height:100px;
+	margin-bottom:90px;
+	margin-top:40px;
+}
+.arrow{
+	text-align:center;
+}
+section {
+	background: linear-gradient(#e66465, #3c88f3);
+	
+}
+.cards{
+	display:flex;
+	
+}
+.cards img{
+	width:100px;
+	height:100px;
+	padding:20px 0 5px;
+	text-align:center;
+	margin-left:40%;
+}
+.cards p  {
+	line-height:1.5em;
+	color:#f2f2f2;
+	text-align:center;
+	padding:30px;
+	font-size:1em;
+}
+.best{
+	text-align:center;
+    letter-spacing:3px;
+    color:#262626;
+	margin-top:75px;
+}
+.best-gallery-row-1{
+	display:flex;
+}
+.best-gallery-row-2{
+	display:flex;
+}
+.best-gallery-row-1 div{	
+	margin:10px;
+	width:50%;	
+}
+.best-gallery-row-2 div{
+	margin:10px;
+	width:50%; 
+}
+.best-gallery-row-1 img{
+	width:150px;
+	height:150px;
+}
+.best-gallery-row-2 img{
+	width:150px;
+	height:150px;
+}
+.fulldisplay{
+	display:flex;
+    text-align:center;
+	margin:30px 30px  75px 30px;
+	background-color:white;
+   
+}
+.add_cart{
+    color:black;
+    margin:20px;
+	border: solid 1px black;
+    padding:0px 20px 0px 20px;
+    text-decoration:none;
+    border-radius:50px;
+    font-size:10px;
+}
+.add_cart:hover{
+    color:#f2f2f2;
+    background-color:black;
+    border:2px;
+}
+.right{
+	margin-left:5%;
+	
+}
+.left{
+	flex:1;
+	
+}
+#mono{
+	margin-top:5%;
+}
+main{
+	background-color:black;
+	background-image:url("https://newevolutiondesigns.com/images/freebies/galaxy-wallpaper-21.jpg");
+	background-repeat:no-repeat;
+	background-size:center;
+	background-size:cover;
+	height:100%;
+}
+.camera-showcase{
+	display:flex;
+	
+}
+.quote-box{
+	flex:1;
+	color:#f2f2f2;
+	font-family:'Amatic SC', cursive;
+	padding:30px;
+	margin:10% 10px 10px 10px;
+	text-align: center;
+}
+.quote-img{
+	flex:1;
+	text-align: center;
+	padding-bottom:5%;
+}
+.quote-img h5{
+	color:#f2f2f2;
+	margin:15px;
+	font-family:'Cinzel', serif;
+}
+.quote-img img{
+	flex:1;
+	margin:30px 30px 0 30px;
+	border:solid #262626 2px;
+}
+.shop_now{
+	color:#f2f2f2;
+	border: solid 1px #f2f2f2;
+    padding:10px 15px 10px 15px;
+    text-decoration:none;
+    border-radius:50px;
+	font-size:10px;
+}
+.shop_now:hover{
+	color:#000;
+	background-color:#f2f2f2;
+}
+footer{
+	height:100%;
+	background-color:#000;
+	border:2px solid #000;
+	margin:0;
+}
+.fa {
+	padding: 10px;
+	font-size: 30px;
+	width: 25px;
+	text-align: center;
+	text-decoration: none;
+	margin:5px;
+  }
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+  }
+  
+  .fa-twitter {
+	background: #55ACEE;
+	color: white;
+  }
+  .fa-youtube {
+	background: #bb0000;
+	color: white;
+  }
+  .fa-instagram {
+	background: #125688;
+	color: white;
+  }
+.big{
+	padding:50px 30px 20px 30px;
+	display:flex;
+	color: #f2f2f2;
+	
+}
+.link-box{
+	flex:1;
+	
+}
+.media-links{
+	display:flex;
+	
+}
+.media-links li{
+	list-style:none;
+	
+}
+.subscribe{
+	flex:2;
+
+}
+.footer-links{
+	flex:1;
+	margin-left:5%;
+	
+}
+.footer-links a{
+	text-decoration:none;
+	color:grey;
+}
+.footer-links li{
+	LIST-STYLE:NONE;
+}
+#email{
+	height:30px;
+}
+#submit{
+	text-align:center;
+	padding:10px;
+	color:#f2f2f2;
+	background-color:#1a1f49;
+	border:none;
+	margin:5px;
+	height:35px;
+}
+#submit:hover{
+	cursor:pointer;
+}
+.footer-logo{
+	flex:1;
+	
+}
+@keyframes fall {
+	0% {
+		opacity: 0;
+		transform: translateY(-80px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+	@media (max-width:1024px) {
+		.phoneimage{
+		padding:30px;
+		margin-left:0%;
+	}	
+	#galaxy{
+		height:500px;
+		width:500px;
+	}
+	nav{
+		margin:5px 25px 25px 25px;
+	}
+	#logo-img{
+		width:200px;
+		height:190px;
+	}
+	.links a{
+		font-size:27px;
+	}
+	.intro-text{
+		text-align:center;
+		font-size:30px;
+		margin-bottom:50px;
+		padding-top:0;
+		
+	}
+	
+	.intro-text p {
+		text-align:center;
+		
+	}
+	.buttons{
+		margin-left:15%;
+	}
+		.showcase{
+			flex-direction:column;
+			margin:50px 50px 150px 50px;
+	}
+		#arrow{
+			display:none;
+	}
+		   .fulldisplay{
+			flex-direction:column;
+	}
+	.shop_now{
+		font-size:25px;
+	}
+	.cards{
+		flex-direction:column;
+		font-size:2em;
+	}
+	.cards p {
+		padding:50px;                                        
+	}
+	.left{
+		margin-right:10%;
+	}
+
+	.best{
+			text-align:center;
+			
+	}
+
+	.cards img{
+		width:150px;
+		height:150px;
+		padding:20px 0 5px;
+		text-align:center;
+		margin-left:45%;
+	}
+	.best-gallery-row-1 img{
+		width:300px;
+		height:300px;
+	}
+	.best-gallery-row-2 img{
+		width:300px;
+		height:300px;
+	}
+	.left{
+		margin-left:5%;
+	}
+	h6{
+		font-size:30px;
+	}
+	.quote-text{
+		font-size:25px;
+	}
+	.quote-img h5{
+		margin-bottom:30px;
+	}
+	.add_cart{
+		font-size:20px;
+	}
+	.top{
+		font-size:2em;
+	}
+	#mono{
+		width:600px;
+		height:400px;
+	}
+	.camera-showcase{
+		flex-direction:column;
+	}
+	.quote{
+		font-size:50px;
+	}
+	.destin{
+		font-size:35px;
+		letter-spacing: 3px;
+	}
+	#photographer{
+		width:450px;
+		height:350px;
+	}
+	.footer-subhead{
+		font-size:25px;
+		
+	}
+	input[placeholder]{
+		font-size:25px;
+	}
+	#email{
+		height:50px;
+	}
+	#submit{
+		height:55px;
+		padding:10px;
+		
+	}
+	.info-links{
+		margin:10px 0% 10px ;
+		font-size:25px;
+	}
+	.footer-logo{
+		display:none;
+	}
+}
+@media(max-width:1000px){
+	nav{
+		flex-direction:column;
+	}
+	body{
+		font-size:20px;
+	}
+	.links a{
+		margin:10px;
+		font-size:40px;
+	}
+}
+	
